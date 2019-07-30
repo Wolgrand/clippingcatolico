@@ -264,8 +264,8 @@ def create_stories(imagem, titulo, autor, postagem):
     #urx, ury = llx + size *2, lly + size + 1
     #draw.rectangle(((llx, lly), (urx, ury)), fill=(41,128,185,200))
 
-    font_titulo = ImageFont.truetype("arial.ttf", 60)
-    font_autor = ImageFont.truetype("arial.ttf", 55)
+    font_titulo = ImageFont.truetype("Cabin-Medium.otf", 60)
+    font_autor = ImageFont.truetype("Cabin-Medium.otf", 55)
     texto = titulo
     author = 'Publicado por '+ autor
     edicao = datetime.date.today().strftime('%d-%m-%Y')
