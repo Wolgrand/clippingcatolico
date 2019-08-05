@@ -10,7 +10,7 @@ import random
 
 def RssRead():
   #Criar base dados JSON - db.json
-  db = TinyDB('db.json', sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False, encoding='utf-8')
+  db = TinyDB('./db.json', sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False, encoding='utf-8')
   titulo_postagem = Query()
 
   #Ler o feed Aleteia
